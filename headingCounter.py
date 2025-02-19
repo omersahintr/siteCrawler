@@ -32,7 +32,7 @@ def h3_counter(url):
             print("\tH3", i3, "-",h3s.text)
     print("H3 Count: ", i3)
 try:
-    h1_counter(url) # h1 heading content
+    h1_counter(url) # h1 heading and chained to h2,h3 content
 except:
     pass
 
