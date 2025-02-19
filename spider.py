@@ -1,7 +1,7 @@
 import requests as req
 from bs4 import BeautifulSoup
 
-siteUrl = "https://omersahin.com.tr"
+siteUrl = input("Entry URL: ") #"https://omersahin.com.tr"
 foundLinks = []
 
 def make_req(url):
