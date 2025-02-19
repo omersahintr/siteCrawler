@@ -26,4 +26,9 @@ def crawler(url):
                 print(countLink, "-", foundLink)
                 crawler(foundLink) #recursive process.
         countLink += 1
-crawler(siteUrl)
+try: #for error passing
+    crawler(siteUrl)
+except:
+    pass
+
+
